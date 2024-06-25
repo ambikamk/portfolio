@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style2.css" />
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="home" id="home">
+        <header class="header" id="home">
+            <a href="#" class="logo">Portfolio</a>
+
+            <nav class="navbar">
+
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+        </header>
+        
+            <div class="home-content">
+                <h3><b>Hiii...</b></h3>
+                <h1>I Am <span>Ambika</span></h1>
+
+            </div>
+        </section>
+        <!-----------------about-------------------------------------->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/background2.jpeg" />
+                    </div>
+                    <div style="text-align:right" class="about-col-2"></div>
+                    <h1 class="sub-title">About Me</h1><br /><br /><br />
+                    <p>
+                        <b>
+                            <b>
+                                My Name is Ambika,and I am a dedicated MCA student with a foundation in Mathematics.Hailing from the beautifultown
+                                Kannur.<br />I have always been passionate about the world of computer and technology.My journey into the world of programming
+                                and software development began when i completed my undergraduate degree in mathematics.I have a deep fascination for
+                                problem-solving and the ever-evolving landscape of computer science.In my spare time,I enjoy exploring new coding
+                                challenges and staying up-to-date with the latest developments in the tech industry.I am excited about the endless
+                                possibilities that a career in computer applications holds and look forward to making a meaningful contribution
+                                to this dynamic field.
+                            </b>
+                        </b>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!---------------education---------------------------------------->
+
+
+        <center>
+            <h1 class="heading">My<span>  Education</span></h1>
+            <section class="education" id="education">
+
+                <div class="box-container">
+                    <div class="box">
+                        <i class="fas fas-graduation-cap"></i>
+                        <span>2016</span>
+                        <h1>SSLC</h1>
+                        <p>GGHSS Thiruvangad</p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fas-graduation-cap"></i>
+                        <span>2018</span>
+                        <h1>Plus Two</h1>
+                        <p>GGHSS Thiruvangad</p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fas-graduation-cap"></i>
+                        <span>2021</span>
+                        <h1>Degree</h1>
+                        <p>Nirmalagiri College</p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fas-graduation-cap"></i>
+                        <span>2025</span>
+                        <h1>MCA</h1>
+                        <p>Marian College</p>
+                    </div>
+                </div>
+
+            </section>
+        </center>
+
+        <!-------------------skills---------------------------------------->
+        <center>
+            <section class="skills" id="skills">
+                <div class="max-width">
+                    <h2 class="title">My skills</h2>
+                    <div class="skills-content">
+
+                        <div class="column right">
+                            <div class="bars">
+                                <div class="info">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="line html"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>CSS</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="line css"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>JavaScript</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="line js"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>PHP</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="line php"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>MySQL</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="line mysql"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><br /><br />
+        </center>
+        <!-----------------------contact----------------------------------------------->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class='bx bx-mail-send'></i>mkambika287@gmail.com</p>
+                        <p><i class='bx bx-phone'></i>9846380952</p>
+                        <div class="social-icons">
+                            <a href=""><i class='bx bxl-facebook'></i></a>
+                            <a href=""><i class='bx bxl-instagram'></i></a>
+                            <a href=""><i class='bx bxl-whatsapp'></i></a>
+                            <a href=""><i class='bx bxl-twitter'></i></a>
+                        </div>
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required />
+                            <input type="email" name="Email" placeholder="Your Email" required />
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwnlDZvabr5HI0KbCq4WkXrIzAmOiDLRkUJQHj62TZ7s5k6dJB1S5Lf3n0IrL3U-1uU/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message Sent Successfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+</html>
